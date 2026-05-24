@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ed Klien Diocares</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-name">Ed Klien Diocares</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" onclick="closeMenu()">Home</a>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#portfolio" onclick="closeMenu()">Portfolio</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">— Portfolio</p>
+      <h1 class="hero-name">Ed Klien<br/><span>Diocares</span></h1>
+      <p class="hero-sub">Student &amp; Aspiring Professional</p>
+      <a href="#about" class="btn-primary">Get to know me</a>
+    </div>
+    <div class="hero-decoration">
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="section-label">01 — About Me</div>
+    <div class="about-grid">
+      <div class="about-left">
+        <h2>A little<br/>about me.</h2>
+      </div>
+      <div class="about-right">
+        <p class="about-text">
+          Hi! I'm <strong>Ed Klien Diocares</strong>, a dedicated student with a passion for learning and growth. I strive to build skills that matter and create work that I'm proud of.
+        </p>
+        <p class="about-text">
+          I believe in continuous improvement, hard work, and the power of curiosity. Whether in academics or personal projects, I give everything my best effort.
+        </p>
+        <div class="skills-grid">
+          <div class="skill-tag">Hard Working</div>
+          <div class="skill-tag">Curious</div>
+          <div class="skill-tag">Creative</div>
+          <div class="skill-tag">Detail-Oriented</div>
+          <div class="skill-tag">Team Player</div>
+          <div class="skill-tag">Fast Learner</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio">
+    <div class="section-label">02 — Portfolio</div>
+    <h2 class="section-title">My Work &amp; Projects</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-card">
+        <div class="card-number">01</div>
+        <h3>Project Title Here</h3>
+        <p>Describe your project here. What did you do? What did you learn from it?</p>
+        <span class="card-tag">Academic</span>
+      </div>
+      <div class="portfolio-card">
+        <div class="card-number">02</div>
+        <h3>Project Title Here</h3>
+        <p>Describe your project here. What did you do? What did you learn from it?</p>
+        <span class="card-tag">Personal</span>
+      </div>
+      <div class="portfolio-card">
+        <div class="card-number">03</div>
+        <h3>Project Title Here</h3>
+        <p>Describe your project here. What did you do? What did you learn from it?</p>
+        <span class="card-tag">Creative</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="section-label">03 — Contact</div>
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-sub">Have a question or want to connect? Feel free to reach out!</p>
+    <div class="contact-links">
+      <a href="mailto:youremail@email.com" class="contact-item">
+        <span class="contact-icon">✉</span>
+        <span>youremail@email.com</span>
+      </a>
+      <a href="#" class="contact-item">
+        <span class="contact-icon">in</span>
+        <span>LinkedIn Profile</span>
+      </a>
+      <a href="#" class="contact-item">
+        <span class="contact-icon">gh</span>
+        <span>GitHub Profile</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Ed Klien Diocares. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
